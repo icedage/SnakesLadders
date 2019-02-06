@@ -1,6 +1,8 @@
 # SnakesLadders
 
-Run project by executing the console application. 
+A console app for snakes and ladders - feature 1.
+http://agilekatas.co.uk/katas/SnakesAndLadders-Kata
+
 The Program.cs calls the RoleDice function, which is driven by clicking Enter
 The Board ues 10 squares instead of 100 to make the success/fail demos easier.
 
