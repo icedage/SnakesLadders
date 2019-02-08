@@ -3,7 +3,7 @@
 A console app for snakes and ladders - feature 1.
 http://agilekatas.co.uk/katas/SnakesAndLadders-Kata
 
-The Program.cs calls the RoleDice function, which is driven by clicking Enter.
+The Program.cs calls the RolleDice function, which is driven by clicking Enter.
 The Board is intialised with 10 squares, instead of 100 to make demos easier.
 
 You can see the flow of the game for success and failure scenarios by using the integration tests.
