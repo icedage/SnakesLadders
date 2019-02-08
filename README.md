@@ -10,6 +10,6 @@ You can see the flow of the game for success and failure scenarios by using the 
 Play_Game__With_GameWon_Flow() test presents a flow for success and Play_Game__With_GameLost_Flow() for failure.
 They are calling directily the MoveToken function, where we pass the number of spaces. 
 The MoveToken function is also called by RollDice with a random number (range from 1 to 6). this is called by Program.cs.
-The idea is to write an integration test, where we can repeatedly control the flow by calling MoveToken with a number of our choice (instead of a random one), until we fail or win the game. RollDice internally calls MoveToken
+The idea is to write an integration test, where we can repeatedly call MoveToken with a number of our choice (instead of a random one), until we fail or win the game. RollDice internally calls MoveToken
 
 The solution is using State pattern, in case we want to extend and add more players.
